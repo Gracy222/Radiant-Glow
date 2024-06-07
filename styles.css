@@ -1,5 +1,3 @@
-/* styles.css */
-
 /* Reset some default styles */
 body, h1, h2, p, ul, li, form, input, textarea, button {
     margin: 0;
@@ -9,40 +7,90 @@ body, h1, h2, p, ul, li, form, input, textarea, button {
 }
 
 /* Body Styling */
-body {
-    background-color: #f9f9f9;
-    color: #333;
-    line-height: 1.6;
+body.home {
+    background-color: #f8a7a7;
 }
 
-/* styles.css */
+body.products {
+    background-color: #fa9fe6;
+}
 
-/* Existing styles */
+/* Additional styles for the About Us page */
 
-header nav {
+body.about {
+    background-color: #e16af8; /* Set your desired background color */
+}
+
+.about-section {
+    padding: 50px 20px;
+}
+
+.about-section .content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-section h2 {
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    margin-bottom: 15px;
+}
+
+
+body.contact {
+    background-color: #e9cddd; 
+}
+
+#responseMessage {
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff; 
+}
+
+
+/* Header Styling */
+header {
+    background-color: #fddce7;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-header nav ul {
+nav ul {
     list-style: none;
     display: flex;
+    justify-content: center;
     margin: 0;
 }
 
-header nav ul li {
+nav ul li {
     margin: 0 15px;
 }
 
-header nav ul li a {
+nav ul li a {
     text-decoration: none;
     color: #333;
     padding: 10px;
     transition: color 0.3s;
 }
 
-header nav ul li a:hover {
+nav ul li a:hover {
     color: #007bff;
 }
 
@@ -71,45 +119,6 @@ header nav ul li a:hover {
     background-color: #0056b3;
 }
 
-/* Rest of the styles */
-
-
-/* Header Styling */
-header {
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    padding: 20px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-header h1 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    padding: 10px;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: #007bff;
-}
-
 /* Main Content Styling */
 main {
     padding: 20px;
@@ -119,7 +128,7 @@ main {
 
 /* Hero Section */
 .hero {
-    background-image: url('images/hero.jpg');
+    background-image: url('images/background\ image.jpg');
     background-size: cover;
     background-position: center;
     padding: 100px 20px;
@@ -173,7 +182,7 @@ main {
 }
 
 .product {
-    background-color: #fff;
+    background-color: #e3f2fc;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -236,4 +245,3 @@ footer {
     box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
     margin-top: 50px;
 }
-

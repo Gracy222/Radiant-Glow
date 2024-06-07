@@ -6,7 +6,7 @@
     <title>Contact Us - Radiant Glow</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="contact">
     <header>
         <h1>Radiant Glow</h1>
         <nav>
@@ -21,7 +21,7 @@
 
     <main>
         <h2>Contact Us</h2>
-        <form>
+        <form id="contactForm">
             <div class="form-group">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
@@ -36,10 +36,12 @@
             </div>
             <button type="submit">Send Message</button>
         </form>
+        <div id="responseMessage" style="display: none;">Thank you for your message! We'll get back to you shortly.</div>
     </main>
 
     <footer>
         <p>&copy; 2024 Radiant Glow. All rights reserved.</p>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>

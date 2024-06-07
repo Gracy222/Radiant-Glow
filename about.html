@@ -6,7 +6,7 @@
     <title>About Us - Radiant Glow</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="about">
     <header>
         <h1>Radiant Glow</h1>
         <nav>
@@ -16,17 +16,35 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+            <form id="searchForm">
+                <input type="text" id="searchInput" placeholder="Search products...">
+                <button type="submit">Search</button>
+            </form>
         </nav>
     </header>
 
     <main>
-        <h2>About Us</h2>
-        <p>Welcome to Radiant Glow! Our mission is to provide the best skincare products to help you achieve a radiant, healthy complexion.</p>
-        <p>We believe in the power of natural ingredients and science-backed formulas to deliver visible results. Our products are designed to cater to all skin types and concerns.</p>
+        <section class="about-section">
+            <div class="content">
+                <h2>About Us</h2>
+                <p>Radiant Glow is dedicated to providing high-quality skincare products that promote healthy, glowing skin. Our mission is to help individuals achieve confidence through radiant and nourished skin.</p>
+                <p>With years of experience in the skincare industry, our team of experts has carefully curated a selection of products that are formulated using the finest ingredients and cutting-edge technology.</p>
+                <p>At Radiant Glow, we believe that skincare is not just about looking good; it's about feeling good too. That's why we prioritize the health and well-being of our customers above all else.</p>
+                <p>Join us on our journey to radiant, glowing skin!</p>
+                
+                <!-- Social Media Links -->
+                <div class="social-links">
+                    <a href="https://www.facebook.com/radiantglow" target="_blank"><img src="images/facebook-icon.png" alt="Facebook"></a>
+                    <a href="https://www.linkedin.com/company/radiantglow" target="_blank"><img src="images/linkedin-icon.png" alt="LinkedIn"></a>
+                    <a href="https://twitter.com/radiantglow" target="_blank"><img src="images/twitter-icon.png" alt="Twitter"></a>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
         <p>&copy; 2024 Radiant Glow. All rights reserved.</p>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>

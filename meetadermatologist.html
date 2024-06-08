@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet a Dermatologist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="meetadermatologist">
+    <header>
+        <h1>Radiant Glow</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+               <li><a href="meetadermatologist.html">Meet a Dermatologist</a></li>
+                <li><a href="skindiseases.html">Skin Diseases</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="dermatologist-section">
+            <h2>Meet a Dermatologist</h2>
+            <div class="content">
+                <!-- Image of a dermatologist -->
+                <img src="images/dermatologist.jpg" alt="Dermatologist">
+                <p>Fill out the form below to schedule a consultation with one of our expert dermatologists.</p>
+                <form id="dermatologistForm">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+                <div id="responseMessage"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Radiant Glow. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

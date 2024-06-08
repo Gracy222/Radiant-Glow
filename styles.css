@@ -8,17 +8,16 @@ body, h1, h2, p, ul, li, form, input, textarea, button {
 
 /* Body Styling */
 body.home {
-    background-color: #f8a7a7;
+    background-color: #fde3e3;
 }
 
 body.products {
-    background-color: #fa9fe6;
+    background-color: #fdc1f1;
 }
 
 /* Additional styles for the About Us page */
-
 body.about {
-    background-color: #e16af8; /* Set your desired background color */
+   background: linear-gradient(70deg, rgba(172, 181, 233, 0.651), rgb(236, 107, 130));
 }
 
 .about-section {
@@ -39,9 +38,8 @@ body.about {
     margin-bottom: 15px;
 }
 
-
 body.contact {
-    background-color: #e9cddd; 
+   background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #5ad3f1 42%, #b49fda 79%, #7ac5d8 100%);
 }
 
 #responseMessage {
@@ -50,6 +48,105 @@ body.contact {
     color: #007bff; 
 }
 
+body.meetadermatologist {
+   background: linear-gradient(45deg, rgb(221, 54, 54), rgb(78, 78, 204));
+
+}
+
+.dermatologist-section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.dermatologist-section .content {
+    text-align: center;
+}
+
+.dermatologist-section .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.dermatologist-section label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.dermatologist-section input[type="text"],
+.dermatologist-section input[type="email"],
+.dermatologist-section textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.dermatologist-section button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dermatologist-section button:hover {
+    background-color: #0056b3;
+}
+
+.dermatologist-section #responseMessage {
+    margin-top: 20px;
+    color: green;
+}
+
+body.skindiseases {
+    background: linear-gradient(90deg in oklab, rgba(255, 0, 200, 0.945), rgba(243, 100, 100, 0.781));
+}
+
+.skindiseases-section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.skindiseases-section .content {
+    text-align: left;
+}
+
+.skindiseases-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.disease-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.disease-list li {
+    margin-bottom: 20px;
+}
+
+.disease-list h3 {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.disease-list p {
+    margin: 0;
+    color: #555;
+}
 
 /* Header Styling */
 header {
@@ -128,7 +225,7 @@ main {
 
 /* Hero Section */
 .hero {
-    background-image: url('images/background\ image.jpg');
+    background-image: url('images/background\ image.jpg'); /* Updated the image path */
     background-size: cover;
     background-position: center;
     padding: 100px 20px;

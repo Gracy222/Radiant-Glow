@@ -16,8 +16,7 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="meetadermatologist.html">Meet a Dermatologist</a></li>
-                <li><a href="#" id="cartLink">Shopping Cart (0)</a></li>
-                <li><a href="skindiseases.html">Skin Diseases</a></li>
+                <li><a href="register.html">Register</a></li>
             </ul>
             <form id="searchForm">
                 <input type="text" id="searchInput" placeholder="Search products...">
@@ -42,57 +41,40 @@
                     <img src="images/background image.jpg" alt="Glow Serum">
                     <h3>Glow Serum</h3>
                     <p>Brighten your skin with our best-selling glow serum.</p>
-                    <a href="#" class="btn" onclick="promptPayment('Glow Serum')">Buy Now</a>
+                    <a href="products.html" class="btn">Buy Now</a>
                 </div>
                 <div class="product" data-name="Skin Doctor">
                     <img src="images/Skin Doctor.jpeg" alt="Skin Doctor">
                     <h3>Skin Doctor</h3>
                     <p>Effective treatments for all your skincare needs.</p>
-                    <a href="#" class="btn" onclick="promptPayment('Skin Doctor')">Buy Now</a>
+                    <a href="products.html" class="btn">Buy Now</a>
                 </div>
                 <div class="product" data-name="Radiant-image">
                     <img src="images/Radiant-image.avif" alt="Radiant Image">
                     <h3>Radiant Image</h3>
                     <p>Enhance your natural glow with our Radiant Image cream.</p>
-                    <a href="#" class="btn" onclick="promptPayment('Radiant Image')">Buy Now</a>
+                    <a href="products.html" class="btn">Buy Now</a>
                 </div>
                 <div class="product" data-name="Vitamin Cream">
                     <img src="images/vitamin cream.jpeg" alt="Vitamin Cream">
                     <h3>Vitamin Cream</h3>
                     <p>Nourish your skin with essential vitamins.</p>
-                    <a href="#" class="btn" onclick="promptPayment('Vitamin Cream')">Buy Now</a>
+                    <a href="products.html" class="btn">Buy Now</a>
                 </div>
                 <div class="product" data-name="Nurture">
                     <img src="images/Nurture.jpeg" alt="Nurture">
                     <h3>Nurture</h3>
                     <p>Hydrate and protect your skin with our Nurture range.</p>
-                    <a href="#" class="btn" onclick="promptPayment('Nurture')">Buy Now</a>
+                    <a href="products.html" class="btn">Buy Now</a>
                 </div>
                 <!-- Add more products here -->
             </div>
         </section>
-         <div id="cartList" style="display: none;">
-            <h2>Shopping Cart</h2>
-            <ul id="cartItems"></ul>
-            <p>Total: <span id="cartTotal">$0</span></p>
-            <button onclick="printReceipt()">Print Receipt</button>
-        </div>
     </main>
 
     <footer>
         <p>&copy; 2024 Radiant Glow. All rights reserved.</p>
     </footer>
     <script src="scripts.js"></script>
-    <script>
-        function promptPayment(productName) {
-            var amount = prompt("Enter the amount for " + productName);
-            if (amount !== null && amount.trim() !== "") {
-                // Perform payment processing here
-                alert("Payment successful. Thank you for your purchase!");
-            } else {
-                alert("Payment canceled.");
-            }
-        }
-    </script>
 </body>
 </html>

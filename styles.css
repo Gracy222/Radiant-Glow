@@ -8,16 +8,16 @@ body, h1, h2, p, ul, li, form, input, textarea, button {
 
 /* Body Styling */
 body.home {
-    background-color: #fde3e3;
+    background-color: #fce8e821;
 }
 
 body.products {
-    background-color: #fdccf3;
+    background-color: #f1f5f8;
 }
 
 /* Additional styles for the About Us page */
 body.about {
-   background: linear-gradient(70deg, rgba(172, 181, 233, 0.651), rgb(236, 107, 130));
+   background: linear-gradient(70deg, rgba(198, 201, 219, 0.651), rgb(126, 79, 119));
 }
 
 .about-section {
@@ -49,7 +49,7 @@ body.contact {
 }
 
 body.meetadermatologist {
-   background: linear-gradient(45deg, rgb(221, 54, 54), rgb(78, 78, 204));
+   background: linear-gradient(45deg, rgb(197, 134, 134), rgb(78, 78, 204));
 }
 
 .dermatologist-section {
@@ -108,8 +108,8 @@ body.meetadermatologist {
 
 /* Header Styling */
 header {
-    background-color: #fddce7;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #d4cbce;
+    box-shadow: 0 2px 4px rgba(243, 125, 125, 0.1);
     padding: 20px;
     position: sticky;
     top: 0;
@@ -171,7 +171,7 @@ nav ul li a:hover {
 }
 
 #searchForm button:hover {
-    background-color: #0056b3;
+    background-color: #302d2f;
 }
 
 /* Main Content Styling */
@@ -280,7 +280,7 @@ button {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #942763;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -289,7 +289,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #2b3b4d;
 }
 
 /* Footer Styling */
